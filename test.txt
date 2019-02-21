@@ -1,1 +1,2 @@
 1. Hello git
+2. test "git status"
