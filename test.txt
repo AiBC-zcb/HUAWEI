@@ -1,2 +1,3 @@
 1. Hello git
 2. test "git status"
+3. test "git log"
