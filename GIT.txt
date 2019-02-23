@@ -4,7 +4,7 @@ ssh-keygen -t rsa –C “youremail@example.com” //创建秘钥
 
 git config --global user.name "[name]"   //设置后每次提交就会附带上你的名字了
 
-git config --global user.email "[email]" //邮箱地址，邮箱必须要，push时会有问题
+git config --global user.email "[email]" //邮箱地址
 
 git init    //初始化工作区
 
