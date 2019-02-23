@@ -1,0 +1,47 @@
+本文档保存GIT常用操作，方便查询，欢迎补充，重要的放前面
+
+ssh-keygen -t rsa –C “youremail@example.com” //创建秘钥
+
+git config --global user.name "[name]"   //设置后每次提交就会附带上你的名字了
+
+git config --global user.email "[email]" //邮箱地址，邮箱必须要，push时会有问题
+
+git init    //初始化工作区
+
+git clone   //克隆远程库
+
+git status  //查询当前文件状态，工作区或暂存区或仓库
+
+git diff    //查询未暂存文件的不同
+git diff --staged //查询已暂存文件和最新版本的不同
+
+git add [file]    //添加某个文件到暂存区
+
+git add .  //添加所有文件到暂存区
+
+git cimmit -m "备注"  //把暂存区的文件提交到本地仓库
+
+git push
+
+git pull
+
+git remote -v  //查询远程主机的网址
+git remote rm   git remote add    //更换远程主机
+
+rm        //只删除工作区的文件
+git rm --cached  //只删除暂存区的文件
+git rm    //删除工作区和暂存区的文件
+
+git reset --hard HEAD^  //退回到上一个版本
+git reset --hard 版本号 //退回到某个版本
+
+git reflog  //查询版本号
+
+git checkout --文件名  //放弃工作区的修改
+
+
+
+
+
+
+

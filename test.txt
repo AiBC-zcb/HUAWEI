@@ -1,5 +1,0 @@
-1. Hello git
-2. test "git status"
-3. test "git log"
-4. test "check out"
-5. test "push"
