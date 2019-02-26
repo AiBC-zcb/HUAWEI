@@ -3,7 +3,7 @@
 https://www.nowcoder.com/ta/huawei?query=&asc=true&order=&page=1
 为了方便后续的查找，定义项目规范如下
 
-1、代码命名规范：简单直接，方便查找
+1、代码命名规范：简单直接，方便查找；命名方式就以数字加类型（如第二题是字符串的题，2-string）
 2、每个.cpp文件里保存一道题的多种解法以及题目用例，参考demo.cpp
 3、commit 时务必加上-m参数（注释），养成良好习惯
 
